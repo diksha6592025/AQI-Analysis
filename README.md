@@ -1,3 +1,37 @@
+# Air Quality Index (AQI) Interactive Dashboard – Indian Cities
+
+## 📌 Project Overview
+This project analyzes historical Air Quality Index (AQI) data of major Indian cities and provides future AQI forecasting using time-series models.
+
+An interactive dashboard is built using Streamlit to visualize AQI trends, pollutant levels, and forecasts.
+
+## 🎯 Objectives
+- Analyze AQI trends across Indian cities
+- Identify high-risk pollution zones
+- Forecast AQI levels for the next 6 months
+- Provide interactive visual insights for decision-making
+
+## 📊 Dataset
+Source: Central Pollution Control Board (CPCB), Government of India  
+Accessed via a compiled CPCB dataset available on Kaggle.
+
+File used:
+- `city_day.csv`
+
+## 🛠 Technologies Used
+- Python
+- Google Colab
+- Pandas, NumPy
+- Plotly
+- Streamlit
+- Facebook Prophet
+- Statsmodels (ARIMA)
+
+## 🚀 How to Run the Project
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+
 This directory includes a few sample datasets to get you started.
 
 *   `california_housing_data*.csv` is California housing data from the 1990 US
